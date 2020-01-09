@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chef.Extensions.DbAccess" Version="1.0.1" />
+    <PackageReference Include="Chef.Extensions.DbAccess.SqlServer" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore31Lab.Protocol\AspNetCore31Lab.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

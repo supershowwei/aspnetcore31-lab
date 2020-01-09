@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Chef.Extensions.DbAccess" Version="1.0.1" />
+    <PackageReference Include="Chef.Extensions.DbAccess.SqlServer" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCore31Lab.Logic\AspNetCore31Lab.Logic.csproj" />
+    <ProjectReference Include="..\AspNetCore31Lab.Physical\AspNetCore31Lab.Physical.csproj" />
+    <ProjectReference Include="..\AspNetCore31Lab.Protocol\AspNetCore31Lab.Protocol.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
